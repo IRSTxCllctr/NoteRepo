@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+a,img, iframe, audio {
+    margin: 100px;
+}
+
+h1, h2{
+    color: Maroon;
+}
+.nonButtons{
+    margin: 10px;
+}
+#foodOptions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

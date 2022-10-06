@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href=".idea/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1  id="heading"> Nondescript Delivery Service</h1> <hr>
+<form>
+  <label for="fName">First Name </label>
+  <input type="text" id="fName" class="nonButtons"><br>
+  <label for="lName">Last Name </label>
+  <input type="text" id="lName" class="nonButtons"><br>
+  <label for="address">Address </label>
+  <input type="text" id="address" class="nonButtons"><br>
+  <label for="dDate">Date of Delivery </label>
+  <input type="date" id="dDate" class="nonButtons"><br>
+  <div id="foodOptions">
+    <input type="radio" id="cheesePizza" name="foodOptions" value="Cheese Pizza">
+    <label for="cheesePizza">Cheese Pizza</label>
+    <input type="radio" id="pepperoniPizza" name="foodOptions" value="Pepperoni Pizza">
+    <label for="pepperoniPizza">Pepperoni Pizza</label>
+    <input type="radio" id="Brownie" name="foodOptions" value="Brownie">
+    <label for="Brownie">Brownie</label>
+    <input type="radio" id="ccCookies" name="foodOptions" value="Chocolate Chip Cookies">
+    <label for="ccCookies">Chocolate Chip Cookies</label>
+  </div>
+  <h3> If you ordered a pizza, please choose any extra toppings you'd like below:</h3>
+  <div>
+    <input type="radio" id="extraCheese" value="Extra Cheese">
+    <label for="extraCheese"> Extra cheese</label>
+    <input type="radio" id="extraPepperoni" value="Extra Pepperoni">
+    <label for="extraPepperoni"> Extra pepperoni</label>
+    <input type="radio" id="Mushrooms" value="Mushrooms">
+    <label for="Mushrooms"> Mushrooms</label>
+    <input type="radio" id="Pineapples" value="Pineapples">
+    <label for="Pineapples"> Pineapples</label>
+    <input type="radio" id="Salami" value="Salami">
+    <label for="Salami"> Pineapples</label>
+    <input type="radio" id="Anchovies" value="Anchovies">
+    <label for="Anchovies"> Anchovies</label><br>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit Order</button>
+  </div>
+</form><hr>
+<h2>User Registration</h2>
+<p> In order to earn points towards a free pizza, please sign in
+  with your username and password below.</p>
+<form>
+  <label for="uName">Username:</label>
+  <input type="text" name="Username" id="uName"><br>
+  <label for="pWord">Password:</label>
+  <input type="password" name="Password" id="pWord"><br>
+  <button type="submit">Sign in</button>
+</form>
+
+
+<!--<img src="memes and sounds/runningout.webp">-->
+<script src="script.js"></script>
+
+<!--
+ This script places a badge on your repl's full-browser view back to your repl's cover
+ page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+ teal, blue, blurple, magenta, pink!
+ -->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
